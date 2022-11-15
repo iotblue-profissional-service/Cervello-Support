@@ -11,11 +11,14 @@ body:
       label: What would you like?
       description: A clear description of the feature or enhancement wanted in Cervello.
       placeholder: I'd like to be able to...
-  - type: textarea
-    id: product
+  - type: dropdown
+    id: download
     attributes:
-      label: Please enter the product name and version
-      placeholder: On Cervello V5.9
+      label: How did you download the software?
+      options:
+        - Apps
+        - Things
+        - Stem
     validations:
       required: true
   - type: textarea
