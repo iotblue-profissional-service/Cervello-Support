@@ -13,8 +13,6 @@ body:
       placeholder: I'd like to be able to...
   - type: textarea
     id: product-type
-    attributes:
-      label: In which product?
       inputs:
       environment:
         type: environment
