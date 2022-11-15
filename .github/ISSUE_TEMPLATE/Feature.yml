@@ -5,16 +5,20 @@ body:
     attributes:
       value: |
         Have a question? 👉 [Start a new discussion](https://github.com/iotblue/Cervello-Support/discussions)
+    validations:
+      required: true
   - type: textarea
     id: feature
     attributes:
       label: What would you like?
       description: A clear description of the feature or enhancement wanted in Cervello.
       placeholder: I'd like to be able to...
+    validations:
+      required: true
   - type: dropdown
     id: download
     attributes:
-      label: How did you download the software?
+      label: In which product?
       options:
         - Apps
         - Things
@@ -27,6 +31,8 @@ body:
       label: Why is this needed?
       description: Please provide a clear description of why this would be useful to you. 
       placeholder: I want this because...
+    validations:
+      required: true
   - type: textarea
     id: other
     attributes:
