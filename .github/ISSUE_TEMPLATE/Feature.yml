@@ -13,10 +13,6 @@ body:
       placeholder: I'd like to be able to...
   - type: textarea
     id: product
-    attributes:
-      label: What would you like?
-      description: A clear description of the feature or enhancement wanted in Cervello.
-      placeholder: I'd like to be able to...
       choice:
         type: choice
         description: Make a choice
