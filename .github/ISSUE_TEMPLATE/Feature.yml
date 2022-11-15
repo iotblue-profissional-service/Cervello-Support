@@ -13,13 +13,13 @@ body:
       placeholder: I'd like to be able to...
   - type: textarea
     id: product
-      choice:
-        type: choice
-        description: Make a choice
-        options:
-        - foo
-        - bar
-        - baz
+     choice:
+       type: choice
+       description: Make a choice
+       options:
+       - foo
+       - bar
+       - baz
     validations:
       required: true
   - type: textarea
