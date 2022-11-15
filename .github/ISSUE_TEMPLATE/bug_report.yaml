@@ -42,7 +42,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Further Info
+    id: Further-Info
     attributes:
       label: Further Info
       placeholder: Further Info
