@@ -1,5 +1,5 @@
 name: "🐛 Bug report"
-description: Report a bug found while using Cervello Stem.
+description: Report a bug found while using Cervello.
 body:
   - type: textarea
     id: current-behavior
@@ -14,7 +14,7 @@ body:
     attributes:
       label: Desired behavior
       description: Provide a clear description of what should happen.
-      placeholder: In this situation, Cervello Stem should...
+      placeholder: In this situation, Cervello should...
   - type: textarea
     id: reproduction
     attributes:
@@ -26,8 +26,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: Cervello Stem Version
-      description: What version of Cervello Stem are you running?
+      label: Cervello Version
+      description: What version of Cervello are you running?
       placeholder: ex. 5.9
     validations:
       required: true
