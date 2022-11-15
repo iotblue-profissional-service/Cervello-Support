@@ -1,9 +1,6 @@
 name: "🐛 Bug report"
 description: Report a bug found while using Cervello Stem.
 body:
-  - type: markdown
-    attributes:
-      value: |
   - type: textarea
     id: current-behavior
     attributes:
