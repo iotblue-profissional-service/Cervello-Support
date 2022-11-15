@@ -13,6 +13,22 @@ body:
       placeholder: I'd like to be able to...
     validations:
       required: true
+      - type: textarea
+    id: product-type
+    attributes:
+      label: In which product?
+      test:
+  - test1
+  - test2
+  - test3
+
+testing:
+    "%test%"
+
+
+'choices' => array_flip($this->getParameter('testing'))
+    validations:
+      required: true
   - type: textarea
     id: reason
     attributes:
