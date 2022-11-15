@@ -17,16 +17,20 @@ body:
     id: product-type
     attributes:
       label: In which product?
-      test:
-  - test1
-  - test2
-  - test3
-
-testing:
-    "%test%"
-
-
-'choices' => array_flip($this->getParameter('testing'))
+      inputs:
+      environment:
+        type: environment
+        description: Select the environment
+      boolean:
+        type: boolean
+        description: True or False
+      choice:
+        type: choice
+        description: Make a choice
+        options:
+        - foo
+        - bar
+        - baz
     validations:
       required: true
   - type: textarea
