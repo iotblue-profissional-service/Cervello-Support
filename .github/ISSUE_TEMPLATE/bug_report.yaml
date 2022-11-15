@@ -1,0 +1,59 @@
+name: "🐛 Bug report"
+description: Report a bug found while using Cervello Stem.
+body:
+  - type: markdown
+    attributes:
+      value: |
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current behavior
+      description: Please provide a description including screenshots, stack traces, etc.
+      placeholder: Currently...
+    validations:
+      required: true
+  - type: textarea
+    id: desired-behavior
+    attributes:
+      label: Desired behavior
+      description: Remember, we're not familiar with the app you're testing, so please provide a clear description of what should happen.
+      placeholder: In this situation, Cervello Stem should...
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Test code to reproduce
+      description: Please provide a failing test
+      placeholder: Here is my failing test steps...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Cervello Stem Version
+      description: What version of Cervello Stem are you running?
+      placeholder: ex. 5.9
+    validations:
+      required: true
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: What operating system is Cervello running on when you are encountering your problem?  The more specific the better.  ie macOS 12.4 or Windows 10.0.19044.1889
+      placeholder: ex. macOS 12.4
+    validations:
+      required: true
+  - type: textarea
+    id: Further Info
+    attributes:
+      label: Further Info
+      placeholder: Further Info
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: other
+    attributes:
+      label: Other
+      placeholder: Any other details?
