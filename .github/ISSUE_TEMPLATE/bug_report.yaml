@@ -13,13 +13,13 @@ body:
     id: desired-behavior
     attributes:
       label: Desired behavior
-      description: Remember, we're not familiar with the app you're testing, so please provide a clear description of what should happen.
+      description: Provide a clear description of what should happen.
       placeholder: In this situation, Cervello Stem should...
   - type: textarea
     id: reproduction
     attributes:
-      label: Test code to reproduce
-      description: Please provide a failing test
+      label: Steps to reproduce
+      description: Please steps to reproduce the current situation
       placeholder: Here is my failing test steps...
     validations:
       required: true
