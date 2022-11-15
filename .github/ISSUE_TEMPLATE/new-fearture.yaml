@@ -11,16 +11,16 @@ body:
       label: What would you like?
       description: A clear description of the feature or enhancement wanted in Cervello.
       placeholder: I'd like to be able to...
-parameters:  
-  - name: description
-    displayName: Description2
-    type: string
-    default: Stem
-    values: 
-    - "Stem"
-    - "Apps"
-    validations:
-      required: true
+  - type: dropdown
+    id: download
+    attributes:
+      label: How did you download the software?
+      options:
+        - Apps
+        - Things
+        - Stem
+  validations:
+    required: true
   - type: textarea
     id: reason
     attributes:
