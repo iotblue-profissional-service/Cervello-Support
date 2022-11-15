@@ -11,9 +11,7 @@ body:
       label: What would you like?
       description: A clear description of the feature or enhancement wanted in Cervello.
       placeholder: I'd like to be able to...
-    validations:
-      required: true
-      - type: textarea
+  - type: textarea
     id: product-type
     attributes:
       label: In which product?
