@@ -17,13 +17,6 @@ body:
       label: What would you like?
       description: A clear description of the feature or enhancement wanted in Cervello.
       placeholder: I'd like to be able to...
-      inputs:
-      environment:
-        type: environment
-        description: Select the environment
-      boolean:
-        type: boolean
-        description: True or False
       choice:
         type: choice
         description: Make a choice
