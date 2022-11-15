@@ -13,13 +13,9 @@ body:
       placeholder: I'd like to be able to...
   - type: textarea
     id: product
-     choice:
-       type: choice
-       description: Make a choice
-       options:
-       - foo
-       - bar
-       - baz
+    attributes:
+      label: Please enter the product name and version
+      placeholder: On Cervello V5.9
     validations:
       required: true
   - type: textarea
