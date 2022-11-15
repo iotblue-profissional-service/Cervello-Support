@@ -12,7 +12,8 @@ body:
       description: A clear description of the feature or enhancement wanted in Cervello.
       placeholder: I'd like to be able to...
   - type: textarea
-    id: product-type
+    id: product
+    attributes:
       inputs:
       environment:
         type: environment
