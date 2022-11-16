@@ -20,9 +20,8 @@ body:
     attributes:
       label: In which product?
       options:
-        - Apps
-        - Things
-        - Stem
+        - IoT-Suite
+        - IoT-Platform
     validations:
       required: true
   - type: textarea
