@@ -32,8 +32,6 @@ body:
         - IoT-Platform
     validations:
       required: true
-    validations:
-      required: true
   - type: input
     id: os
     attributes:
