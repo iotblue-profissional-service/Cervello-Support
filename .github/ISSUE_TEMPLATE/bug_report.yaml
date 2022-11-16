@@ -23,12 +23,13 @@ body:
       placeholder: Here is my failing test steps...
     validations:
       required: true
-  - type: input
-    id: version
+  - type: dropdown
+    id: download
     attributes:
-      label: Cervello Version
-      description: What version of Cervello are you running?
-      placeholder: ex. 5.9
+      label: In which product?
+      options:
+        - IoT-Suite
+        - IoT-Platform
     validations:
       required: true
     validations:
