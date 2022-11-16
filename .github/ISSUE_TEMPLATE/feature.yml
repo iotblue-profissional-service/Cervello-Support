@@ -20,7 +20,8 @@ body:
     attributes:
       label: In which product?
       options:
-        - IoT-Suite
+        - IoT-Suite-Apps
+        - IoT-Suite-Things
         - IoT-Platform
     validations:
       required: true
